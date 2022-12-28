@@ -1,6 +1,7 @@
 import React from "react";
+import "../styles/Testimony.css";
 
-const Testimony = () => {
+export const Testimony = () => {
 	return (
 		<div className="testimony_container">
 			<img
@@ -21,5 +22,3 @@ const Testimony = () => {
 		</div>
 	);
 };
-
-export default Testimony;
