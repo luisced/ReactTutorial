@@ -11,10 +11,10 @@ export const Testimony = (props) => {
 			/>
 			<div className="testimony_text_container">
 				<p className="testimony_name">
-					{props.name} in {props.country}
+					<strong>{props.name}</strong> in {props.country}
 				</p>
 				<p className="testimony_role">
-					{props.role} in {props.enterprise}
+					{props.role} in <strong>{props.enterprise}</strong>
 				</p>
 				<p className="testimony_text">"{props.testimony}"</p>
 			</div>

@@ -1,9 +1,11 @@
 import "./App.css";
 import { Testimony } from "./components/Testimony";
+import { NavBar } from "./components/NavBar";
 
 function App() {
 	return (
 		<div className="App">
+			<NavBar />
 			<div className="Main_Container">
 				<h1>
 					How I finished the entire freeCodeCamp curriculum in 9 months while
