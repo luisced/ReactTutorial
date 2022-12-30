@@ -1,0 +1,24 @@
+button {
+	width: 250px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin: 5px;
+}
+
+button:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	color: #fff;
+}
+
+.clickButton {
+	background-color: #4caf50;
+}
+
+.restartButton {
+	background-color: #4ca0af;
+}
