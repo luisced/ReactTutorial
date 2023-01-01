@@ -1,4 +1,5 @@
 import "./App.css";
+import { Task } from "./components/Task";
 
 function App() {
 	return (
@@ -6,6 +7,7 @@ function App() {
 			<div className="taskContainer">
 				<div className="taskMainList">
 					<h1>My tasks</h1>
+					<Task text="Learn React" />
 				</div>
 			</div>
 		</div>
